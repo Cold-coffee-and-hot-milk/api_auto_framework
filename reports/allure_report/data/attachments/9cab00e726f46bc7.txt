@@ -1,0 +1,9 @@
+[32m2025-10-14 17:57:08 - INFO     - 执行用例: 未命名用例[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 请求URL: https://eviapptest.sanyevi.cn/eviapp/v3/AppV3/srvAssistant/servInfo[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 请求方法: GET[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 请求数据类型: form[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 请求数据: {'userCode': '${X-Auth-Code}'}[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 响应状态码: 200[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 响应数据: {"result":1,"message":"成功","data":{"orderNum":0,"userCode":null,"agentBp":null,"agentName":null,"wdBp":null,"wdBpDesc":null,"servKm":0.0,"avgWorkTime":0.0,"srvBp":null,"expertiseId":null,"expertise":null,"levelDesc":null,"level":null,"srvMacNum":null,"virtualTel":null,"srvStatus":null,"srvStatusDesc":null,"carNo":null,"carLon":null,"carLat":null}}[0m
+[36m2025-10-14 17:57:08 - DEBUG    - 提取变量: {}[0m
+[32m2025-10-14 17:57:08 - INFO     - [1;32m用例执行成功: user_info-0_获取用户服务信息[0m

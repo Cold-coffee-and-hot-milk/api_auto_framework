@@ -1,0 +1,1 @@
+[{"uid":"9d1e3e3d6e35ec88","name":"login-0_用户登录接口","time":{"start":1760435826183,"stop":1760435828375,"duration":2192},"status":"passed","severity":"normal"},{"uid":"3ff6dbda83735507","name":"user_info-0_获取用户服务信息","time":{"start":1760435828379,"stop":1760435828628,"duration":249},"status":"passed","severity":"normal"}]

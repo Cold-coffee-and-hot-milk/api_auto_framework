@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2192","login-0_用户登录接口","data.test_cases","2025-10-14","passed","2025-10-14","","login","",""
+"","249","user_info-0_获取用户服务信息","data.test_cases","2025-10-14","passed","2025-10-14","","user_info","",""
