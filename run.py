@@ -13,6 +13,8 @@ def run_tests():
     Logger()
 
     # 调试信息
+    print("Python 路径:", sys.path)
+    print("Allure 包位置:", allure.__file__ if 'allure' in sys.modules else '未导入')
     print(f"使用的Python路径: {sys.executable}")
     allure_dir = os.path.abspath(os.path.join(Config.REPORT_DIR, "allure_results"))
     print(f"Allure报告目录: {allure_dir}")
