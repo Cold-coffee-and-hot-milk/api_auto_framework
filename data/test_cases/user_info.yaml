@@ -1,7 +1,7 @@
 - name: "获取用户服务信息"
   description: "测试获取用户服务信息功能"
   request:
-    method: GET
+    method: GET/
     data_type: "form"
     url: "/eviapp/v3/AppV3/srvAssistant/servInfo"
     headers:
