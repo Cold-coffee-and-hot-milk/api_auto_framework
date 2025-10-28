@@ -14,6 +14,18 @@ class Logger:
         return cls._instance
 
     def init_logger(self):
+        # 配置彩色格式器
+        self.formatter = colorlog.ColoredFormatter(
+            '%(log_color)s%(asctime)s - %(levelname)-8s - %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S',
+            log_colors={
+                'DEBUG': 'cyan',
+                'INFO': 'green',
+                'WARNING': 'yellow',
+                'ERROR': 'red',
+                'CRITICAL': 'red,bg_white',
+            }
+        )
         # 确保报告目录存在
         os.makedirs(Config.REPORT_DIR, exist_ok=True)
 
