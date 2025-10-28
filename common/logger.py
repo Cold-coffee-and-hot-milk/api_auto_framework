@@ -80,22 +80,46 @@ class Logger:
         self.logger.addHandler(console_handler)
         self.logger.addHandler(file_handler)
 
-    @classmethod
-    def info(cls, message):
-        cls().logger.info(message)
+    # @classmethod
+    # def info(cls, message):
+    #     cls().logger.info(message)
 
-    @classmethod
-    def debug(cls, message):
-        cls().logger.debug(message)
+    # @classmethod
+    # def debug(cls, message):
+    #     cls().logger.debug(message)
 
-    @classmethod
-    def warning(cls, message):
-        cls().logger.warning(message)
+    # @classmethod
+    # def warning(cls, message):
+    #     cls().logger.warning(message)
 
-    @classmethod
-    def error(cls, message):
-        cls().logger.error('\033[1;31m%s\033[0m' % message)
+    # @classmethod
+    # def error(cls, message):
+    #     cls().logger.error('\033[1;31m%s\033[0m' % message)
 
-    @classmethod
-    def success(cls, message):
-        cls().logger.info('\033[1;32m%s\033[0m' % message)
+    # @classmethod
+    # def success(cls, message):
+    #     cls().logger.info('\033[1;32m%s\033[0m' % message)
+
+    @staticmethod
+    def error(message):
+        # 使用标准ANSI颜色格式
+        colored_message = f"\033[1;31m{message}\033[0m"
+        Logger._log(logging.ERROR, colored_message)
+    
+    @staticmethod
+    def success(message):
+        colored_message = f"\033[1;32m{message}\033[0m"
+        Logger._log(logging.INFO, colored_message)
+    
+    @staticmethod
+    def warning(message):
+        colored_message = f"\033[1;33m{message}\033[0m"
+        Logger._log(logging.WARNING, colored_message)
+    
+    @staticmethod
+    def debug(message):
+        colored_message = f"\033[1;34m{message}\033[0m"
+        Logger._log(logging.DEBUG, colored_message)
+
+
+
