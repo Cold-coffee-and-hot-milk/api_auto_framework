@@ -45,11 +45,23 @@ class Logger:
             }
         )
 
-        file_formatter = logging.Formatter(
-            '%(asctime)s - %(levelname)-8s - %(message)s',
-            datefmt='%Y-%m-%d %H:%M:%S'
-        )
+        # file_formatter = logging.Formatter(
+        #     '%(asctime)s - %(levelname)-8s - %(message)s',
+        #     datefmt='%Y-%m-%d %H:%M:%S'
+        # )
 
+        file_formatter = colorlog.ColoredFormatter(
+            '%(log_color)s%(asctime)s - %(levelname)-8s - %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S',
+            log_colors={
+                'DEBUG': 'cyan',
+                'INFO': 'green',
+                'WARNING': 'yellow',
+                'ERROR': 'red',
+                'CRITICAL': 'red,bg_white',
+            }
+        )
+        
         console_handler.setFormatter(console_formatter)
         file_handler.setFormatter(file_formatter)
 
