@@ -8,11 +8,14 @@ import allure
 from io import StringIO
 import logging
 
-# ========== 新增功能：彩色日志支持 ==========
+# ========== 修复的彩色日志支持 ==========
 def ansi_to_html(text):
-    """将ANSI颜色代码转换为HTML样式"""
-    # ANSI颜色代码到HTML的映射
+    """将ANSI颜色代码转换为HTML样式 - 增强版"""
+    # ANSI颜色代码到HTML的映射（扩展版）
     ansi_colors = {
+        '0': '',  # 重置所有属性
+        '1': 'font-weight:bold',  # 粗体
+        '4': 'text-decoration:underline',  # 下划线
         '30': 'color:black',
         '31': 'color:red',
         '32': 'color:green',
@@ -29,8 +32,14 @@ def ansi_to_html(text):
         '45': 'background-color:magenta',
         '46': 'background-color:cyan',
         '47': 'background-color:white',
-        '1': 'font-weight:bold',  # 粗体
-        '4': 'text-decoration:underline',  # 下划线
+        '90': 'color:gray',  # 亮黑（灰）
+        '91': 'color:#ff5555',  # 亮红
+        '92': 'color:#55ff55',  # 亮绿
+        '93': 'color:#ffff55',  # 亮黄
+        '94': 'color:#5555ff',  # 亮蓝
+        '95': 'color:#ff55ff',  # 亮紫
+        '96': 'color:#55ffff',  # 亮青
+        '97': 'color:#ffffff',  # 亮白
     }
     
     # 替换ANSI转义码
@@ -39,18 +48,23 @@ def ansi_to_html(text):
         styles = []
         for code in codes:
             if code in ansi_colors:
-                styles.append(ansi_colors[code])
+                style = ansi_colors[code]
+                if style:  # 忽略重置代码
+                    styles.append(style)
         return f'<span style="{";".join(styles)}">' if styles else '<span>'
     
     # 处理ANSI转义序列
     text = re.sub(r'\x1b\[([\d;]+)m', replace_ansi, text)
-    text = text.replace('\x1b[0m', '</span>')
+    
+    # 处理重置序列（包括简写形式）
+    text = re.sub(r'\x1b\[0m', '</span>', text)
+    text = re.sub(r'\x1b\[m', '</span>', text)
     
     # 保留换行符
     text = text.replace('\n', '<br>')
     
     # 添加HTML包装
-    return f'<div style="font-family: monospace; white-space: pre;">{text}</div>'
+    return f'<div style="font-family: monospace; white-space: pre; line-height: 1.5;">{text}</div>'
 
 # 创建日志捕获器
 log_capture = StringIO()
@@ -198,7 +212,7 @@ class YamlItem(pytest.Item):
         except (AttributeError, UnicodeDecodeError):
             return str(body)
 
-# ========== 原有功能保持不变 ==========
+# ========== 保留原有功能 ==========
 def pytest_collection_modifyitems(items):
     """安全地为所有测试项添加fixture"""
     for item in items:
