@@ -1,0 +1,27 @@
+{
+  "result": 1,
+  "message": "成功",
+  "data": [
+    {
+      "_id": "320505",
+      "countyCode": "320505",
+      "now": {
+        "obsTime": null,
+        "temp": "2",
+        "feelsLike": "-4",
+        "icon": "100",
+        "text": "晴",
+        "wind360": "0",
+        "windDir": "北风",
+        "windScale": "4",
+        "windSpeed": "24",
+        "humidity": "51",
+        "precip": "0.0",
+        "pressure": "1031",
+        "vis": "21",
+        "cloud": "10",
+        "dew": "-8"
+      }
+    }
+  ]
+}

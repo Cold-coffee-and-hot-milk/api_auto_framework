@@ -1,0 +1,54 @@
+- name: "/AppV3/weather/all 获取实况天气、24小时天气、7天天气"
+  description: "获取实况天气、24小时天气、7天天气"
+  request:
+    method: GET
+    data_type: "form"
+    url: "/eviappnew/v3/AppV3/weather/all"
+    headers:
+      User-Agent: "Apache-HttpClient/4.5.7"
+      Accept-Encoding: "gzip, deflate"
+      accept: "application/json"
+      Connection: "keep-alive"
+      Content-Type: "application/x-www-form-urlencoded"
+      charset: "UTF-8"
+      gatewayVersion: "1.0.0"
+      X-Auth-TestFlag: "8e852121-df35-48cb-98c8-42f2dd5eab72"
+      X-Auth-ReqFlag: "open"
+    
+    data:
+      countyCode: "320505"
+
+  expect:
+    status_code: 200
+    headers:
+      Content-Type: application/json;charset=UTF-8
+    body:
+      message: "成功"
+      result: 1
+  
+  #validate:
+    #    - "response.json().get('code') == 0"
+    # - "response.get('data')[0].get('real_name') == '汪桂凤'"
+    
+#      loginname: "${username}" # 从env_config.yaml获取
+#      password: "${password}"
+#      userCode: "${X-Auth-Code}"
+#      password: "334420"
+#      type: "1"
+#  extract:
+#    X-Auth-Code: jsonpath:$.data[0].user_uniquecode
+#    X-Auth-Code: "body.data.user_uniquecode"
+#    user_id: jsonpath:$.data[0].user_id
+#    user_id: "body.data.user_id"
+
+#- name: "获取用户信息"
+#  description: "测试获取用户信息功能"
+#  request:
+#    method: GET
+#    url: /api/user/info
+#    headers:
+#      Content-Type: application/json
+#      Authorization: Bearer ${token}  # 使用登录接口提取的token
+#    extract:
+#      username: jsonpath:$.data.username
+#      email: jsonpath:$.data.email

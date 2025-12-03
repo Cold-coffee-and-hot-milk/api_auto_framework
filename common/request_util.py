@@ -1,22 +1,27 @@
 import requests
 from common.yaml_util import YamlUtil
 from common.extract_util import ExtractUtil
+from common.data_util import DataUtil
 from common.logger import Logger
+from common.log_decorator import log_api
 from config.config import Config
 
 
 class RequestUtil:
     session = requests.Session()
+    _base_url = None
 
     @classmethod
+    def set_base_url(cls, base_url):
+        """设置基础URL"""
+        cls._base_url = base_url
+        Logger.info(f"设置基础URL: {base_url}")
+
+    @classmethod
+    @log_api()
     def send_request(cls, case_info):
         """
-        增强安全性的请求发送方法
-        保留原有功能并增加：
-        1. 更健壮的URL处理
-        2. 更严格的参数校验
-        3. 更详细的错误日志
-        4. 智能数据格式处理
+        请求发送方法
         """
         try:
             # ========== 参数校验 ==========
@@ -29,9 +34,10 @@ class RequestUtil:
             # ========== 处理URL ==========
             url = str(case_info['url']).strip()
 
-            # 保留原有base_url拼接逻辑
+            # 处理URL拼接
             if not url.startswith(('http://', 'https://')):
-                base_url = Config.get_env_config().get('base_url', '').strip()
+                # 优先使用类中设置的基础URL
+                base_url = cls._base_url or Config.get_env_config().get('base_url', '').strip()
                 if base_url:
                     # 正确处理URL拼接（避免双斜杠）
                     base_url = base_url.rstrip('/')
@@ -39,23 +45,21 @@ class RequestUtil:
                     url = f"{base_url}/{url}"
 
             # ========== 处理headers ==========
-            headers = {
-                str(k): str(v) if v is not None else ''
-                for k, v in case_info.get('headers', {}).items()
-            }
 
-            # ========== 智能处理请求数据 ==========
+            headers = DataUtil.safe_convert_to_dict(case_info.get('headers', {}))
+            headers = {str(k): str(v) if v is not None else '' for k, v in headers.items()}
+
+            # ========== 处理请求数据 ==========
             method = case_info.get('method', 'GET').upper()
             data_type = case_info.get('data_type', 'json')
-            data = case_info.get('data', {})
+            data = DataUtil.safe_convert_to_dict(case_info.get('data', {}))
 
-            # 保留原有的动态参数替换
+            # 使用ExtractUtil替换动态变量
             data = ExtractUtil.replace_dynamic_values(data)
 
-            # 根据数据类型智能处理数据
+            # 根据数据类型处理数据
             processed_data = cls._process_request_data(data, data_type)
 
-            Logger.info(f"执行用例: {case_info.get('name', '未命名用例')}")
             Logger.debug(f"请求URL: {url}")
             Logger.debug(f"请求方法: {method}")
             Logger.debug(f"请求数据类型: {data_type}")
@@ -103,9 +107,31 @@ class RequestUtil:
 
         # 根据数据类型处理值
         if data_type == 'form':
-            # Form表单数据需要字符串值
-            return {k: str(v) if v is not None else '' for k, v in processed.items()}
+
+            # Form表单数据需要字符串值，但保留数组类型
+            return {k: cls._convert_to_form_value(v) for k, v in processed.items()}
         else:
             # JSON数据保持原始类型但确保可序列化
-            return {k: v if isinstance(v, (str, int, float, bool)) or v is None else str(v)
+            return {k: v if isinstance(v, (str, int, float, bool, list, dict)) or v is None else str(v)
                     for k, v in processed.items()}
+    
+    @classmethod
+    def _convert_to_form_value(cls, value):
+        """
+        转换值为表单格式，但保留数组类型
+        """
+        if value is None:
+            return ''
+        elif isinstance(value, (list, dict)):
+            # 保留复杂数据结构，不转换为字符串
+            return value
+        else:
+            return str(value)
+    
+    @classmethod
+    def clear_session(cls):
+        """清除会话"""
+        cls.session = requests.Session()
+        cls._base_url = None
+        Logger.info("已清除请求会话")
+

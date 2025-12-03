@@ -1,0 +1,2 @@
+response.get('result') == 0
+response.get('data') == []

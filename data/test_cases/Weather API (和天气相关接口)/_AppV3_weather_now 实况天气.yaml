@@ -1,0 +1,30 @@
+- name: "/AppV3/weather/now 实况天气"
+  description: "实况天气"
+  request:
+    method: POST
+    data_type: "json"
+    url: "/eviappnew/v3/AppV3/weather/now"
+    headers:
+      User-Agent: "Apache-HttpClient/4.5.7"
+      Accept-Encoding: "gzip, deflate"
+      accept: "application/json"
+      Connection: "keep-alive"
+      Content-Type: "application/json"
+      charset: "UTF-8"
+      gatewayVersion: "1.0.0"
+      X-Auth-TestFlag: "8e852121-df35-48cb-98c8-42f2dd5eab72"
+      X-Auth-ReqFlag: "open"
+      X-Auth-Code: ""
+      X-Auth-Token: ""
+      sys: ""
+    data:
+      countyCodeList: [
+          "320505"
+        ]
+  expect:
+    status_code: 200
+    headers:
+        Content-Type: application/json;charset=UTF-8
+    body:
+      message: "成功"
+      result: 1

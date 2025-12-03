@@ -1,0 +1,15 @@
+data:
+  countyCode: '320505'
+data_type: form
+headers:
+  Accept-Encoding: gzip, deflate
+  Connection: keep-alive
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: Apache-HttpClient/4.5.7
+  X-Auth-ReqFlag: open
+  X-Auth-TestFlag: 8e852121-df35-48cb-98c8-42f2dd5eab72
+  accept: application/json
+  charset: UTF-8
+  gatewayVersion: 1.0.0
+method: GET
+url: /eviappnew/v3/AppV3/weather/all

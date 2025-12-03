@@ -1,0 +1,20 @@
+current_env: test  # 默认环境，但会被命令行参数覆盖
+
+# 测试
+test:
+  base_url: "https://eviapptest.sanyevi.cn"
+  username: "13915916916"
+  password: "334420"
+
+# 预发布
+pre_release:
+  base_url: "https://eviapp.sanyevi.cn/eviappnew/prerelease"
+  username: "13915916916"
+  password: "334420"
+
+# 生产环境
+prod:
+  base_url: "https://eviapp.sanyevi.cn/eviappnew/official"
+  username: "13915916916"
+  password: "334420"
+

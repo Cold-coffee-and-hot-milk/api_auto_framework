@@ -1,0 +1,417 @@
+[32m2025-12-01 09:50:37 - INFO     - 开始执行测试用例: runtest[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._display_environment_info[0m
+[32m2025-12-01 09:50:37 - INFO     - ==================================================[0m
+[32m2025-12-01 09:50:37 - INFO     - 📋 测试环境信息[0m
+[32m2025-12-01 09:50:37 - INFO     -   当前环境: 默认环境[0m
+[32m2025-12-01 09:50:37 - INFO     -   基础URL: https://eviapptest.sanyevi.cn[0m
+[32m2025-12-01 09:50:37 - INFO     -   测试用户: 13915916916[0m
+[32m2025-12-01 09:50:37 - INFO     -   用例文件: /Users/xiejr/PycharmProjects/api_auto_framework/data/test_cases/User API (用户管理)/login(用户登陆).yaml[0m
+[32m2025-12-01 09:50:37 - INFO     -   用户密码: 33***20[0m
+[32m2025-12-01 09:50:37 - INFO     - ==================================================[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._display_environment_info - 耗时: 0.002秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_env_vars[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.005秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.002秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.010秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.002秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_vars_recursive[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._replace_var_in_string[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_var_in_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_vars_recursive - 耗时: 0.015秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._replace_env_vars - 耗时: 0.015秒[0m
+[36m2025-12-01 09:50:37 - DEBUG    - 替换后的用例配置: {
+  "name": "\u7528\u6237\u767b\u5f55\u63a5\u53e3",
+  "description": "\u6d4b\u8bd5\u7528\u6237\u767b\u5f55\u5931\u8d25",
+  "request": {
+    "method": "POST",
+    "data_type": "form",
+    "url": "/eviappnew/v3/AppV3/user/login",
+    "headers": {
+      "User-Agent": "Apache-HttpClient/4.5.7",
+      "Accept-Encoding": "gzip, deflate",
+      "accept": "application/json",
+      "Connection": "keep-alive",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "charset": "UTF-8",
+      "Content-Length": "0",
+      "gatewayVersion": "1.0.0",
+      "X-Auth-TestFlag": "8e852121-df35-48cb-98c8-42f2dd5eab72",
+      "X-Auth-ReqFlag": "open"
+    },
+    "data": {
+      "loginname": "13915916916",
+      "password": "3344",
+      "type": "1"
+    }
+  },
+  "expect": {
+    "status_code": 200,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "body": {
+      "message": "\u767b\u5f55\u5931\u8d25,\u8d26\u53f7\u6216\u5bc6\u7801\u9519\u8bef\uff01"
+    }
+  },
+  "validate": [
+    "response.get('result') == 0",
+    "response.get('data') == []"
+  ]
+}[0m
+[36m2025-12-01 09:50:37 - DEBUG    - 已清空提取数据[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._attach_environment_details[0m
+[32m2025-12-01 09:50:37 - INFO     - 完成执行 YamlItem._attach_environment_details - 耗时: 0.002秒[0m
+[32m2025-12-01 09:50:37 - INFO     - 测试环境准备完成[0m
+[32m2025-12-01 09:50:37 - INFO     - 开始执行 YamlItem._execute_and_validate_request[0m
+[32m2025-12-01 09:50:37 - INFO     - 发送API请求: POST /eviappnew/v3/AppV3/user/login[0m
+[36m2025-12-01 09:50:37 - DEBUG    - 请求URL: https://eviapptest.sanyevi.cn/eviappnew/v3/AppV3/user/login[0m
+[36m2025-12-01 09:50:37 - DEBUG    - 请求方法: POST[0m
+[36m2025-12-01 09:50:37 - DEBUG    - 请求数据类型: form[0m
+[36m2025-12-01 09:50:37 - DEBUG    - 请求数据: {'loginname': '13915916916', 'password': '3344', 'type': '1'}[0m
+[36m2025-12-01 09:50:38 - DEBUG    - 响应状态码: 200[0m
+[36m2025-12-01 09:50:38 - DEBUG    - 响应数据: {"result":0,"message":"登录失败,账号或密码错误！","data":[]}[0m
+[32m2025-12-01 09:50:38 - INFO     - API请求完成: POST /eviappnew/v3/AppV3/user/login - 状态码: 200 - 耗时: 0.495秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._attach_beautified_response[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._is_json_response[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._is_json_response - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._attach_formatted_json[0m
+[36m2025-12-01 09:50:38 - DEBUG    - JSON响应已格式化[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._attach_formatted_json - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._attach_beautified_response - 耗时: 0.002秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 请求完成，状态码: 200[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._execute_and_validate_request - 耗时: 0.501秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._handle_expect_assertions[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_comparison_table[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_column_widths[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_column_widths - 耗时: 0.010秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_comparison_table - 耗时: 0.025秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_success_text_table[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_column_widths[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_column_widths - 耗时: 0.006秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.001秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._generate_formatted_value[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_formatted_value - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._pad_string[0m
+[32m2025-12-01 09:50:38 - INFO     - 开始执行 YamlItem._calculate_string_width[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._calculate_string_width - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._pad_string - 耗时: 0.000秒[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._generate_success_text_table - 耗时: 0.018秒[0m
+[32m2025-12-01 09:50:38 - INFO     - ✅ 所有断言通过[0m
+[32m2025-12-01 09:50:38 - INFO     - 完成执行 YamlItem._handle_expect_assertions - 耗时: 0.048秒[0m
+[32m2025-12-01 09:50:38 - INFO     - ✅ 所有自定义验证通过[0m
+[32m2025-12-01 09:50:38 - INFO     - SUCCESS: 测试用例执行成功: runtest - 耗时: 0.572秒[0m
