@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"reportName":"Allure Report","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2},"time":{"start":1760435826183,"stop":1760435828628,"duration":2445,"minDuration":249,"maxDuration":2192,"sumDuration":2441}}
+=======
+{"reportName":"Allure Report","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4},"time":{"start":1764553836615,"stop":1764553838453,"duration":1838,"minDuration":163,"maxDuration":865,"sumDuration":1825}}
+>>>>>>> 8b8af3e (添加本地新代码和修改)

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 []
+=======
+[{"values":["Environment=Default"],"name":"Test"},{"values":["URL=https://eviapptest.sanyevi.cn"],"name":"Base"},{"values":["13915916916"],"name":"Username"},{"values":["Path=/Users/xiejr/PycharmProjects/api_auto_framework"],"name":"Project"},{"values":["Version=3.10.8"],"name":"Python"},{"values":["System=Darwin 25.0.0"],"name":"Operating"},{"values":["Time=2025-12-01 09:50:36"],"name":"Execution"},{"values":["Version=7.4.0"],"name":"Pytest"},{"values":["33***20"],"name":"Password"}]
+>>>>>>> 8b8af3e (添加本地新代码和修改)

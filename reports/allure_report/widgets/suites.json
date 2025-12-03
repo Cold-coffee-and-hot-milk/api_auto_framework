@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"total":1,"items":[{"uid":"2b9e94cd10b148ebd14657d53e27a538","name":"data.test_cases","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}
+=======
+{"total":2,"items":[{"uid":"8bf5a2b166574f1660b7a8086605196a","name":"data.test_cases.User API (用户管理)","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"33187c17c3ddc8c2b2a1f2c21b31d631","name":"data.test_cases.Weather API (和天气相关接口)","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}
+>>>>>>> 8b8af3e (添加本地新代码和修改)
