@@ -1,9 +1,0 @@
-[32m2025-10-11 17:10:20 - INFO     - 执行用例: 未命名用例[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 请求URL: https://eviapptest.sanyevi.cn/eviapp/v3/AppV3/user/login[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 请求方法: POST[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 请求数据类型: form[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 请求数据: {'loginname': '13915916916', 'password': '334420', 'type': '1'}[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 响应状态码: 200[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 响应数据: {"result":1,"message":"登录成功！","data":[{"user_uniquecode":"8bf38f031ba946effb90099bcc81187d","mobile":"13915916916","username_wechat":null,"username_qq":null,"user_password":"ab01913ae6852b11b43e2f91ec0d2a99","real_name":"汪桂凤","nick_name":"汪桂凤","telphone":null,"id_card":"","head_ico":"https://data-1252702142.cos.ap-beijing.myqcloud.com/group1/eviapp/eviapp_20251011093044.jpg","crm_cusid":"0000233994","srvengineer_cid":"","region":"","is_status":1,"is_del":0,"last_updatetime":1760146244000,"last_p[0m
-[36m2025-10-11 17:10:20 - DEBUG    - 提取变量: {}[0m
-[32m2025-10-11 17:10:20 - INFO     - [1;32m用例执行成功: login-0_用户登录接口[0m

@@ -1,8 +1,0 @@
-INFO     api_auto:logger.py:61 执行用例: 未命名用例
-DEBUG    api_auto:logger.py:65 请求URL: https://eviapptest.sanyevi.cn/eviapp/v3/AppV3/srvAssistant/servInfo
-DEBUG    api_auto:logger.py:65 请求方法: GET
-DEBUG    api_auto:logger.py:65 请求数据类型: form
-DEBUG    api_auto:logger.py:65 请求数据: {'userCode': '${X-Auth-Code}'}
-DEBUG    api_auto:logger.py:65 响应状态码: 200
-DEBUG    api_auto:logger.py:65 响应数据: {"result":1,"message":"成功","data":{"orderNum":0,"userCode":null,"agentBp":null,"agentName":null,"wdBp":null,"wdBpDesc":null,"servKm":0.0,"avgWorkTime":0.0,"srvBp":null,"expertiseId":null,"expertise":null,"levelDesc":null,"level":null,"srvMacNum":null,"virtualTel":null,"srvStatus":null,"srvStatusDesc":null,"carNo":null,"carLon":null,"carLat":null}}
-DEBUG    api_auto:logger.py:65 提取变量: {}

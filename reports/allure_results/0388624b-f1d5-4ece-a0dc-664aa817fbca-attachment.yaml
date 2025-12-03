@@ -1,5 +1,0 @@
-body:
-  message: 登录成功！
-headers:
-  Content-Type: application/json;charset=UTF-8
-status_code: 200

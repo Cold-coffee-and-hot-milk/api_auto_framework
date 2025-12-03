@@ -1,6 +1,0 @@
-body:
-  message: 成功
-  result: 1
-headers:
-  Content-Type: application/json;charset=UTF-8
-status_code: 200

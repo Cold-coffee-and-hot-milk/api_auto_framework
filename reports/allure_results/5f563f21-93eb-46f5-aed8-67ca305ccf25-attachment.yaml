@@ -1,2 +1,0 @@
-X-Auth-Code: jsonpath:$.data[0].user_uniquecode
-x_Auth_Token: jsonpath:$.data[0].x_Auth_Token

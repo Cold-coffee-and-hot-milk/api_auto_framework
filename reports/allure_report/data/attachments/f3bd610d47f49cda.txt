@@ -1,6 +1,0 @@
-Date: Mon, 01 Dec 2025 01:50:38 GMT
-Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
-Strict-Transport-Security: max-age=15724800; includeSubDomains

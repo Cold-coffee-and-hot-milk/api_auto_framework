@@ -1,6 +1,0 @@
-| 字段名                 | 期望值                           | 实际值                           | 状态         |
-|----------------------|--------------------------------|--------------------------------|------------|
-| 状态码                 | 200                              | 200                              | N/A          |
-| headers.Content-Type   | application/json;charset=UTF-8   | application/json;charset=UTF-8   | N/A          |
-| body.message           | 成功                             | 成功                             | N/A          |
-| body.result            | 1                                | 1                                | N/A          |

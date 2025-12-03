@@ -1,5 +1,0 @@
-response.get('result') == 1
-response.get('data')[0].get('real_name') == '汪桂凤'
-len(response.get('data')[0]) == 28
-response.get('data')[0].get('mobile') == '13915916916'
-response.get('data')[0].get('user_uniquecode') == '8bf38f031ba946effb90099bcc81187d'
