@@ -27,7 +27,7 @@
     headers:
       Content-Type: application/json;charset=UTF-8
     body:
-      message: "登录成功 ！"
+      message: "登录成功！"
   validate:
     - "response.get('result') == 1"
     - "response.get('data')[0].get('real_name') == '汪桂凤'"
